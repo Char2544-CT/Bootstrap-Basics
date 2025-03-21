@@ -8,14 +8,14 @@
     <title>Home</title>
 </head>
 
-<body>
+<body class="bg-info"> <!--light blue background with this class-->
 
     <header class="header">
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
+        <!--Nav Bar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top pt-2"> <!--Nav Bar will stick to top when scrolling with "fixed-top"-->
+            <div class="container-fluid"> <!--Fluid container streches full width of screen-->
                 <a class="navbar-brand" href="#">My Website</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> 
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
@@ -31,6 +31,48 @@
     </header>
 
     <main>
+
+        <!--Short site intro and welcome message-->
+        <div class="container-fluid text-center mt-5 pt-5 pb-5">
+            <h1 class="text-dark">Welcome To My Site!</h1>
+            <p class="lead">Have a look around!</p>
+        </div> 
+
+        <!--Start of Bootrstrap Responsive Cards-->
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Sample Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Card One</h5>
+                        <p class="card-text">This is a simple Bootstrap card.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Sample Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Two</h5>
+                        <p class="card-text">Cards are great for displaying content.</p>
+                        <a href="#" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Sample Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Three</h5>
+                        <p class="card-text">They are fully responsive.</p>
+                        <a href="#" class="btn btn-success">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </main>
 
