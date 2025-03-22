@@ -38,12 +38,24 @@
             <p class="lead">Have a look around!</p>
         </div> 
 
+        <!--Fluid Container and image-->
+        <div class="row mt-5">
+            <div class="container-fluid">
+                <img src="images/Johnny Bravo.jpg" width="500px" height="500px" id="johnny-b" class="img-fluid mx-auto d-block" alt="Johnny Bravo"> <!--img fluid changes img size with viewport-->
+            </div>
+        </div>
+        <!--Rounded Image-->
+        <div class="row mt-5">
+            <div class="container">
+                <img src="images/Courage.jpg" class="img-fluid rounded-circle mx-auto d-block" alt="Courage"> <!--mx-auto followed by d-block makes sure the image is always centered-->
+            </div>
+        </div>
+
         <!--Fluid container and card-->
         <div class="row mt-5">
             <div class="container-fluid text-center"> <!--container fluid makes sure container streches across viewport-->
                 <div class="card">
-                    <img src="images/Johnny Bravo.jpg" class="img-fluid" alt="Johnny Bravo"> <!--img fluid changes img size with viewport-->
-                    <div class="card-body mt-5">
+                    <div class="card-body mt-2">
                         <h5 class="card-title">Two Buttons</h5>
                         <p class="card-text">2nd button is hidden on small screens.</p>
                         <a href="#" class="btn btn-success mb-5">Learn More</a>
@@ -53,7 +65,7 @@
                     </div>
                 </div>
             </div>
-        </div>    
+        </div>
 
     </main>
 
